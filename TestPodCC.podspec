@@ -10,7 +10,7 @@ s.name         = 'TestPodCC'
     s.authors      = {'qiang' => '623057062@qq.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/haivy/TestCC.git', :tag => s.version}
-    s.source_files = 'TestPodCC/**/*.{h,m}'
+    s.source_files = 'TestPodCC'
     s.requires_arc = true
 
 end
