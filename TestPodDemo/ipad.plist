@@ -3,6 +3,15 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>New item</key>
+		<dict>
+			<key>displayName</key>
+			<string>销售公司应用</string>
+			<key>version</key>
+			<string>3.1</string>
+			<key>appid</key>
+			<string>yd.s20161219112414636</string>
+		</dict>
 		<key>displayName</key>
 		<string>销售公司应用</string>
 		<key>version</key>
@@ -58,54 +67,54 @@
 		<key>appid</key>
 		<string>yd.s20161219112414699</string>
 	</dict>
-    <dict>
-        <key>displayName</key>
-        <string>河北销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s20161219112414672 </string>
-    </dict>
-    <dict>
-        <key>displayName</key>
-        <string>上海销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s20161219112414666</string>
-    </dict>
-    <dict>
-        <key>displayName</key>
-        <string>福建销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s201612191124146117</string>
-    </dict>
-    <dict>
-        <key>displayName</key>
-        <string>贵州销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s201612191124146129</string>
-    </dict>
-    <dict>
-        <key>displayName</key>
-        <string>陕西销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s20161219112414681</string>
-    </dict>
-    <dict>
-        <key>displayName</key>
-        <string>湖北销售应用</string>
-        <key>version</key>
-        <string>3.1</string>
-        <key>appid</key>
-        <string>yd.s20161219112414696</string>
-    </dict>
+	<dict>
+		<key>displayName</key>
+		<string>河北销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s20161219112414672 </string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>上海销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s20161219112414666</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>福建销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s201612191124146117</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>贵州销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s201612191124146129</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>陕西销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s20161219112414681</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>湖北销售应用</string>
+		<key>version</key>
+		<string>3.1</string>
+		<key>appid</key>
+		<string>yd.s20161219112414696</string>
+	</dict>
 	<dict>
 		<key>displayName</key>
 		<string>宁夏销售应用</string>
@@ -170,7 +179,6 @@
 		<key>appid</key>
 		<string>yd.s20161219112414693</string>
 	</dict>
-
 	<dict>
 		<key>displayName</key>
 		<string>江西销售应用</string>
@@ -211,7 +219,6 @@
 		<key>appid</key>
 		<string>yd.s201612191124146108</string>
 	</dict>
-	
 	<dict>
 		<key>displayName</key>
 		<string>重庆销售应用</string>
@@ -220,7 +227,6 @@
 		<key>appid</key>
 		<string>yd.s201612191124146105</string>
 	</dict>
-
 	<dict>
 		<key>displayName</key>
 		<string>甘肃销售应用</string>
