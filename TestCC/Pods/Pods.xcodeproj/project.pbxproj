@@ -11,6 +11,8 @@
 		548411ED23F6F4DBC703C6204824F0CA /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5566ADE03F1C4D8EC3B9956D05F54435 /* ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6B3264B15B83B5B44F7C9DB9A096D375 /* Pods-TestCC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A758F7145C54F8D622362F2BB5770160 /* Pods-TestCC-dummy.m */; };
 		74604BE7994C70B12D484B94CD7B58BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85D390BC320842BDFF4EC1CF5626F8 /* ViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C31801D12716C32C009825E3 /* LQFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = C31801CF2716C32C009825E3 /* LQFunc.h */; };
+		C31801D22716C32C009825E3 /* LQFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = C31801D02716C32C009825E3 /* LQFunc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,19 +26,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A580B2102B58CA69403A3A123A74F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00A580B2102B58CA69403A3A123A74F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C2DF7BBE18486BA9EC3AA8E56D3C093 /* TestPodCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPodCC.debug.xcconfig; sourceTree = "<group>"; };
 		482B02CEB64F0699377237BD3E570A7F /* TestPodCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestPodCC-dummy.m"; sourceTree = "<group>"; };
 		53A01172BD54477F41FC29C7830CE663 /* Pods-TestCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCC.debug.xcconfig"; sourceTree = "<group>"; };
 		5566ADE03F1C4D8EC3B9956D05F54435 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TestPodCC/ViewController.h; sourceTree = "<group>"; };
-		5C8EB56BAE0428BBFED7CCDA86EC0BE0 /* TestPodCC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestPodCC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		67FF75A9A769221804C2E33363FE66A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C8EB56BAE0428BBFED7CCDA86EC0BE0 /* TestPodCC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestPodCC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67FF75A9A769221804C2E33363FE66A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8D85D390BC320842BDFF4EC1CF5626F8 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TestPodCC/ViewController.m; sourceTree = "<group>"; };
 		9466320CF7D5E459F993FDF42439EC25 /* TestPodCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestPodCC.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A758F7145C54F8D622362F2BB5770160 /* Pods-TestCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCC-dummy.m"; sourceTree = "<group>"; };
 		A7D42EDD97C81D70FE901A1958735882 /* Pods-TestCC */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TestCC"; path = "libPods-TestCC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF834DF7C63685FF2A03CDB935EF6EAA /* TestPodCC */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = TestPodCC; path = libTestPodCC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31801CF2716C32C009825E3 /* LQFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LQFunc.h; path = TestPodCC/LQFunc.h; sourceTree = "<group>"; };
+		C31801D02716C32C009825E3 /* LQFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LQFunc.m; path = TestPodCC/LQFunc.m; sourceTree = "<group>"; };
 		C3D5E9103CD0D534E7DB689496218032 /* Pods-TestCC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C88BFFD6887F88FA8316BE87A11E4359 /* Pods-TestCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCC.release.xcconfig"; sourceTree = "<group>"; };
 		D2D8089F3BC0157FAF07CE4D55D96DAE /* Pods-TestCC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCC-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				8D85D390BC320842BDFF4EC1CF5626F8 /* ViewController.m */,
 				DBBE345F562CBF8DC551CC09037C5525 /* Pod */,
 				598B45A88ACE17E22B8B0FA46539F6B5 /* Support Files */,
+				C31801CF2716C32C009825E3 /* LQFunc.h */,
+				C31801D02716C32C009825E3 /* LQFunc.m */,
 			);
 			name = TestPodCC;
 			path = ../..;
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				548411ED23F6F4DBC703C6204824F0CA /* ViewController.h in Headers */,
+				C31801D12716C32C009825E3 /* LQFunc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0629A3AE8B3BD4EA0418754E9BF36400 /* TestPodCC-dummy.m in Sources */,
+				C31801D22716C32C009825E3 /* LQFunc.m in Sources */,
 				74604BE7994C70B12D484B94CD7B58BC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

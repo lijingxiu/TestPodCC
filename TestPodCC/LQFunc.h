@@ -1,8 +1,8 @@
 //
 //  LQFunc.h
-//  TestCC
+//  TestPodCC
 //
-//  Created by lq on 2021/10/11.
+//  Created by lq on 2021/10/13.
 //
 
 #import <Foundation/Foundation.h>
@@ -10,7 +10,6 @@
 
 @interface LQFunc : NSObject
 
-- (void)outPutTestLog;
-
+- (void)outputLogTest;
 @end
 

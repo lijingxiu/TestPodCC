@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5729B4504588470B8EB93EEF /* libPods-TestCC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B3A32D2865DFA637AB006E /* libPods-TestCC.a */; };
 		C3A3F7622714461D002D6717 /* TestCC.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A3F7602714461D002D6717 /* TestCC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3A3F76A2714464E002D6717 /* LQFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A3F7682714464E002D6717 /* LQFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3A3F76B2714464E002D6717 /* LQFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A3F7692714464E002D6717 /* LQFunc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +18,6 @@
 		C3A3F75D2714461D002D6717 /* TestCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A3F7602714461D002D6717 /* TestCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCC.h; sourceTree = "<group>"; };
 		C3A3F7612714461D002D6717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3A3F7682714464E002D6717 /* LQFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQFunc.h; sourceTree = "<group>"; };
-		C3A3F7692714464E002D6717 /* LQFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQFunc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +46,6 @@
 				746C6606EEA257072A99B6A5 /* Pods-TestCC.debug.xcconfig */,
 				8815FC3402F835968C31F703 /* Pods-TestCC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,8 +72,6 @@
 			children = (
 				C3A3F7602714461D002D6717 /* TestCC.h */,
 				C3A3F7612714461D002D6717 /* Info.plist */,
-				C3A3F7682714464E002D6717 /* LQFunc.h */,
-				C3A3F7692714464E002D6717 /* LQFunc.m */,
 			);
 			path = TestCC;
 			sourceTree = "<group>";
@@ -91,7 +84,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A3F7622714461D002D6717 /* TestCC.h in Headers */,
-				C3A3F76A2714464E002D6717 /* LQFunc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A3F76B2714464E002D6717 /* LQFunc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
