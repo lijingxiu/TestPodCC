@@ -1,0 +1,16 @@
+PODS:
+  - TestPodCC (1.0.1)
+
+DEPENDENCIES:
+  - TestPodCC (from `..`)
+
+EXTERNAL SOURCES:
+  TestPodCC:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  TestPodCC: 453497628158bd0d5a41ea813bc0456cf6e55bd4
+
+PODFILE CHECKSUM: 3d21a4068f62c0aa114afe47efe5dfbc60efccc2
+
+COCOAPODS: 1.11.2
