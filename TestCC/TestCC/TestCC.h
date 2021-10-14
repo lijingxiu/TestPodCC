@@ -6,6 +6,5 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LQFunc.h"
 
 

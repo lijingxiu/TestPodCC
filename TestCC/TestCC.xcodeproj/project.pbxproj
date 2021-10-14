@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5729B4504588470B8EB93EEF /* libPods-TestCC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B3A32D2865DFA637AB006E /* libPods-TestCC.a */; };
+		C31801E32718290E009825E3 /* CCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C31801E12718290E009825E3 /* CCLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C31801E42718290E009825E3 /* CCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C31801E22718290E009825E3 /* CCLog.m */; };
 		C3A3F7622714461D002D6717 /* TestCC.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A3F7602714461D002D6717 /* TestCC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -15,6 +17,8 @@
 		746C6606EEA257072A99B6A5 /* Pods-TestCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCC.debug.xcconfig"; path = "Target Support Files/Pods-TestCC/Pods-TestCC.debug.xcconfig"; sourceTree = "<group>"; };
 		8815FC3402F835968C31F703 /* Pods-TestCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCC.release.xcconfig"; path = "Target Support Files/Pods-TestCC/Pods-TestCC.release.xcconfig"; sourceTree = "<group>"; };
 		C0B3A32D2865DFA637AB006E /* libPods-TestCC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31801E12718290E009825E3 /* CCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCLog.h; sourceTree = "<group>"; };
+		C31801E22718290E009825E3 /* CCLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLog.m; sourceTree = "<group>"; };
 		C3A3F75D2714461D002D6717 /* TestCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A3F7602714461D002D6717 /* TestCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCC.h; sourceTree = "<group>"; };
 		C3A3F7612714461D002D6717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			children = (
 				C3A3F7602714461D002D6717 /* TestCC.h */,
 				C3A3F7612714461D002D6717 /* Info.plist */,
+				C31801E12718290E009825E3 /* CCLog.h */,
+				C31801E22718290E009825E3 /* CCLog.m */,
 			);
 			path = TestCC;
 			sourceTree = "<group>";
@@ -84,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A3F7622714461D002D6717 /* TestCC.h in Headers */,
+				C31801E32718290E009825E3 /* CCLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31801E42718290E009825E3 /* CCLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 746C6606EEA257072A99B6A5 /* Pods-TestCC.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8815FC3402F835968C31F703 /* Pods-TestCC.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
